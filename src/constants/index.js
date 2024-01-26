@@ -1,7 +1,9 @@
+import { event1 } from "../Assets";
+
 const Speakers = [
   {
     about:
-      "Dr. Omkar Rai is the Executive Chairman of 'Startup Odisha' who has played a pivotal role in the formulation & rolling out of NPSP 2019. Under his leadership, STPI in line with the vision of Digital India, Make in India & Startup India has been executing various schemes and programmes. Dr. Rai has a deep understanding of the ever-changing ",
+      "Dr. Omkar Rai is the Executive Chairman of 'Startup Odisha' who has played a pivotal role in the formulation & rolling out of NPSP 2019. Under his leadership, STPI in line with the vision of Digital India, ",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -9,7 +11,7 @@ const Speakers = [
   },
   {
     about:
-      "One of the youngest pitchers on Shark Tank India Season 2, OLL cofounder Shreyaan Daga left the ‘sharks’ impressed by his aptitude and business skills. Having started his entrepreneurial journey at the age of 8, Daga started his online learning company as a teenager last year. While a few ‘sharks’ backed out realising that the business would be to",
+      "One of the youngest pitchers on Shark Tank India Season 2, OLL cofounder Shreyaan Daga left the ‘sharks’ impressed by his aptitude and business skills. Having started his entrepreneurial journey at the age of 8,",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -17,7 +19,7 @@ const Speakers = [
   },
   {
     about:
-      "He is an enthusiastic policy entrepreneur and practitioner actively contributing to the growth of the Indian start-up ecosystem. His work engages a variety of ecosystem enablers and successfully established a scalable, and sustainable model of the Institution’s Innovation Council (IIC) network to foster I & E culture in more than 6000 HEIs which directly c",
+      "He is an enthusiastic policy entrepreneur and practitioner actively contributing to the growth of the Indian start-up ecosystem. His work engages a variety of ecosystem enablers and successfully",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -85,4 +87,23 @@ const Timelines = [
   },
 ];
 
-export { Speakers, Timelines };
+const Events = [
+  {
+    title: "Web Developer",
+    icon: event1,
+  },
+  {
+    title: "React Native Developer",
+    icon: event1,
+  },
+  {
+    title: "Backend Developer",
+    icon: event1,
+  },
+  {
+    title: "Content Creator",
+    icon: event1,
+  },
+];
+
+export { Speakers, Timelines, Events };
