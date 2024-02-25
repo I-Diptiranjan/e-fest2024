@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
-import { Speakers } from "../constants";
+import { styles } from "../../styles";
+import { SectionWrapper } from "../../hoc";
+import { fadeIn, textVariant } from "../../utils/motion";
+import { Speakers } from "../../constants";
 
 const SpeakerCard = ({ index, about, name, designation, company, image }) => (
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>

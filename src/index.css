@@ -4,6 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +24,13 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("./Assets/carnival.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hash-span {

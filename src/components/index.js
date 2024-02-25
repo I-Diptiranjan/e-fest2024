@@ -1,13 +1,13 @@
-import About from "./About";
-import Navbar from "./Navbar";
-import Events from "./Events";
-import FAQ from "./FAQ";
-import Footer from "./Footer";
-import Gallery from "./Gallery";
-import Hero from "./Hero";
-import Speaker from "./Speaker";
-import Sponsers from "./Sponsers";
-import Timeline from "./Timeline";
+import About from "./About/About";
+import Navbar from "./Navbar/Navbar";
+import Events from "./Events/Events";
+import FAQ from "./FAQ/FAQ";
+import Footer from "./Footer/Footer";
+import Gallery from "./Gallery/Gallery";
+import Hero from "./Hero/Hero";
+import Speaker from "./Speakers/Speaker";
+import Sponsers from "./Sponsers/Sponsers";
+import Timeline from "./Timeline/Timeline";
 
 export {
   Hero,
