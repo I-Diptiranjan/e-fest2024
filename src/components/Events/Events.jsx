@@ -4,6 +4,7 @@ import { img1 } from "../../Assets";
 import { img2 } from "../../Assets";
 import { img3 } from "../../Assets";
 import { img4 } from "../../Assets";
+import { SectionWrapper } from "../../hoc";
 
 function Events() {
   const carouselItems = [

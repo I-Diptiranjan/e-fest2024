@@ -12,12 +12,13 @@ import {
   Sponsers,
   Timeline,
 } from "./components";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat">
           <Navbar />
           <Hero />
         </div>
@@ -26,7 +27,7 @@ const App = () => {
         <Speaker />
         <Events />
         <Timeline />
-        <FAQ />
+        <Contact />
         <Gallery />
         <Footer />
       </div>
